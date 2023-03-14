@@ -16,12 +16,12 @@ const SearchBar = () => {
         mr: { sm: 5 },
       }}
     >
-      {/* <input
+      <input
         className='search-bar'
         placeholder='Search...'
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-      /> */}
+        value={""}
+        onChange={() =>{}}
+      />
       <IconButton type='submit' sx={{ p: '10px', color: 'red' }} aria-label='search'>
         <SearchIcon />
       </IconButton>
